@@ -1,0 +1,31 @@
+
+/* Setting block to flex */
+    .big-cats {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }    
+
+
+/* Decoration for cat element */
+  
+  .cat {
+    border: 1px solid white;
+    border-radius: 5%;
+    padding: 10px;
+    max-width: 200px;
+    height: 220px;
+    margin: 2%;
+  }
+
+/* Filter menu css */
+    .big-cats .buttons {
+        width: 100%;
+        margin: 2%;
+    }
+
+/* Form css */
+
+ .big-cats form button {
+    margin-top: 5%;
+ }

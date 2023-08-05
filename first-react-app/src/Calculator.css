@@ -1,0 +1,40 @@
+
+
+.calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 2%;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  
+  .calculator form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .calculator input[type="number"],
+  .calculator select {
+    padding: 3%;
+    margin: 2%;
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 2%;
+  }
+  
+  .calculator button {
+    padding: 8px 16px;
+    margin-top: 5%;
+    border: none;
+    border-radius: 3%;
+  }
+  
+  .calculator .result {
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .calculator form div h2 {
+    margin: 0;
+  }
+  
